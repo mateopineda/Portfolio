@@ -75,3 +75,55 @@ body{
 .project--body{
     background-color: #fff;
 }
+
+.projects{
+    padding-top: 1em;
+    color: #fff;
+    text-align: center;
+}
+
+.about--skills--wrapper{
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+
+.about--wrapper{
+    color: #fff;
+    text-align: center;
+    width: 55%;
+}
+
+.skills{
+    color: #fff;
+    text-align: center;
+}
+
+.skills--wrapper{
+    display: block;
+    justify-content: center;
+    width: 45%;
+}
+
+.skills-columns{
+    padding-bottom: 1em;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.skill--column{
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    width: 300px;
+}
+
+.skill--thumbnail{
+    width: 50%;
+}
+
+.skill--body{
+    background-color: #fff;
+    width: 50%;
+}
