@@ -10,20 +10,23 @@ body{
 }
 
 .nav-link{
-    color: #fff;
+    color: aliceblue;
 }
 
 .hero{
     background-color: #22272e;
-    height: 70vh;
-    color: #fff;
+    min-height: 70vh;
+    color: aliceblue;
 }
 
 #profile{
     border-radius: 50%;
     height: 400px;
-    width: 400px;
+    width: 380px;
     object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .hero--content{
@@ -36,6 +39,7 @@ body{
     display: block;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .intro--name{
@@ -54,6 +58,7 @@ body{
 
 .slogan{
     font-size: 17px;
+    padding-bottom: 1em;
 }
 
 .projects-wrapper{
@@ -65,21 +70,32 @@ body{
 .project--column{
     padding-left: 2%;
     padding-right: 2%;
-    width: 300px;
-}
-
-.project--thumbnail{
     width: 100%;
 }
 
+.project--thumbnail{
+    width: 80%;
+}
+
 .project--body{
-    background-color: #fff;
+    background-color: aliceblue;
+    width: 80%;
 }
 
 .projects{
     padding-top: 1em;
-    color: #fff;
+    color: aliceblue;
     text-align: center;
+}
+
+.container{
+    height: 35vh;
+}
+
+.container--two{
+    background-color: aliceblue;
+    height: 80vh;
+    color: #2d333b;
 }
 
 .about--skills--wrapper{
@@ -88,28 +104,27 @@ body{
     justify-content: center;
 }
 
-
 .about--wrapper{
-    color: #fff;
+    padding-left: 1em;
     text-align: center;
-    width: 55%;
+    width: 40%;
 }
 
 .skills{
-    color: #fff;
     text-align: center;
 }
 
 .skills--wrapper{
     display: block;
     justify-content: center;
-    width: 45%;
+    width: 60%;
 }
 
 .skills-columns{
     padding-bottom: 1em;
     display: inline-flex;
     justify-content: center;
+    width: 100%;
 }
 
 .skill--column{
@@ -120,10 +135,37 @@ body{
 }
 
 .skill--thumbnail{
-    width: 50%;
+    width: 30%;
 }
 
 .skill--body{
-    background-color: #fff;
     width: 50%;
+    padding-left: 1em;
+}
+
+@media (max-width: 1200px) {
+
+    .about--skills--wrapper{
+        display: inline-block;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .about--wrapper{
+        text-align: center;
+        padding-left: 0em;
+        width: 100%;
+    }
+
+    .skills--wrapper{
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero--content{
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 3em;
+    }
+
 }
